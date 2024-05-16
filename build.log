@@ -632,7 +632,7 @@ main:
 [INFO] Copying 2 resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hadoop-hdfs-client ---
-[INFO] Compiling 309 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/target/classes
+[INFO] Compiling 136 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/target/classes
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/src/main/java/org/apache/hadoop/hdfs/shortcircuit/ShortCircuitShm.java:[40,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/src/main/java/org/apache/hadoop/hdfs/shortcircuit/ShortCircuitShm.java:[57,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/src/main/java/org/apache/hadoop/hdfs/shortcircuit/ShortCircuitShm.java:[59,18] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
@@ -652,7 +652,7 @@ main:
 [INFO] Copying 2 resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hadoop-hdfs-client ---
-[INFO] Compiling 27 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/target/test-classes
+[INFO] Compiling 15 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/target/test-classes
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/src/test/java/org/apache/hadoop/hdfs/web/TestByteRangeInputStream.java: Some input files use or override a deprecated API.
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs-client/src/test/java/org/apache/hadoop/hdfs/web/TestByteRangeInputStream.java: Recompile with -Xlint:deprecation for details.
 [INFO] 
@@ -708,7 +708,7 @@ InterQJournalProtocol.proto: warning: Import HdfsServer.proto but not used.
 [INFO] Copying 2 resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hadoop-hdfs ---
-[INFO] Compiling 691 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/classes
+[INFO] Compiling 431 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/classes
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/checker/AbstractFuture.java:[1046,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/checker/AbstractFuture.java:[1054,15] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 [WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/checker/AbstractFuture.java:[1056,26] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
@@ -725,12 +725,7 @@ InterQJournalProtocol.proto: warning: Import HdfsServer.proto but not used.
 [INFO] Executing tasks
 
 main:
-     [copy] Copying 1 file to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps/hdfs/WEB-INF
-     [copy] Copying 1 file to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps/secondary/WEB-INF
-     [copy] Copying 1 file to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps/datanode/WEB-INF
-     [copy] Copying 1 file to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps/journal/WEB-INF
-     [copy] Copying 1 file to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps/nfs3/WEB-INF
-     [copy] Copying 46 files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps
+     [copy] Copying 11 files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/webapps
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- protobuf-maven-plugin:0.5.1:test-compile (src-test-compile-protoc) @ hadoop-hdfs ---
@@ -747,16 +742,15 @@ main:
 main:
    [delete] Deleting directory /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test/data
     [mkdir] Created dir: /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test/data
-    [mkdir] Created dir: /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/log
-     [copy] Copying 72 files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test-classes/webapps
+     [copy] Copying 32 files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test-classes/webapps
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hadoop-hdfs ---
-[INFO] Compiling 802 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test-classes
-[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/ha/TestHASafeMode.java: Some input files use or override a deprecated API.
-[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/ha/TestHASafeMode.java: Recompile with -Xlint:deprecation for details.
-[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestNameNodeMXBean.java: Some input files use unchecked or unsafe operations.
-[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestNameNodeMXBean.java: Recompile with -Xlint:unchecked for details.
+[INFO] Compiling 468 source files to /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/target/test-classes
+[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestAddStripedBlockInFBR.java: Some input files use or override a deprecated API.
+[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/namenode/TestAddStripedBlockInFBR.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/datanode/extdataset/ExternalDatasetImpl.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/cc/hadoop-HDFS-15118/hadoop-hdfs-project/hadoop-hdfs/src/test/java/org/apache/hadoop/hdfs/server/datanode/extdataset/ExternalDatasetImpl.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
 [INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ hadoop-hdfs ---
 [INFO] 
@@ -764,7 +758,7 @@ main:
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running org.apache.hadoop.hdfs.server.namenode.ha.TestObserverReadProxyProvider
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.631 s - in org.apache.hadoop.hdfs.server.namenode.ha.TestObserverReadProxyProvider
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.254 s - in org.apache.hadoop.hdfs.server.namenode.ha.TestObserverReadProxyProvider
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -1588,7 +1582,6 @@ main:
 [INFO] Executing tasks
 
 main:
-    [mkdir] Created dir: /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-server/hadoop-yarn-server-timelineservice-hbase/hadoop-yarn-server-timelineservice-hbase-server/hadoop-yarn-server-timelineservice-hbase-server-1/target/test-dir
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-remote-resources-plugin:1.5:process (default) @ hadoop-yarn-server-timelineservice-hbase-server-1 ---
@@ -2168,15 +2161,8 @@ main:
 [INFO] --- maven-dependency-plugin:3.0.2:copy (default) @ hadoop-yarn-applications-catalog-webapp ---
 [INFO] 
 [INFO] --- frontend-maven-plugin:1.6:install-node-and-yarn (install node and yarn) @ hadoop-yarn-applications-catalog-webapp ---
-[INFO] Node v12.22.1 was installed, but we need version v8.11.3
-[INFO] Installing node version v8.11.3
-[INFO] Unpacking /home/cc/.m2/repository/com/github/eirslett/node/8.11.3/node-8.11.3-linux-x64.tar.gz into /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-applications/hadoop-yarn-applications-catalog/hadoop-yarn-applications-catalog-webapp/target/node/tmp
-[INFO] Copying node binary from /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-applications/hadoop-yarn-applications-catalog/hadoop-yarn-applications-catalog-webapp/target/node/tmp/node-v8.11.3-linux-x64/bin/node to /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-applications/hadoop-yarn-applications-catalog/hadoop-yarn-applications-catalog-webapp/target/node/node
-[INFO] Installed node locally.
-[INFO] Yarn 1.22.5 was installed, but we need version v1.7.0
-[INFO] Installing Yarn version v1.7.0
-[INFO] Unpacking /home/cc/.m2/repository/com/github/eirslett/yarn/1.7.0/yarn-1.7.0.tar.gz into /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-applications/hadoop-yarn-applications-catalog/hadoop-yarn-applications-catalog-webapp/target/node/yarn
-[INFO] Installed Yarn locally.
+[INFO] Node v8.11.3 is already installed.
+[INFO] Yarn 1.7.0 is already installed.
 [INFO] 
 [INFO] --- frontend-maven-plugin:1.6:yarn (yarn install) @ hadoop-yarn-applications-catalog-webapp ---
 [INFO] Running 'yarn ' in /home/cc/hadoop-HDFS-15118/hadoop-yarn-project/hadoop-yarn/hadoop-yarn-applications/hadoop-yarn-applications-catalog/hadoop-yarn-applications-catalog-webapp/target
@@ -3663,120 +3649,120 @@ main:
 [INFO] Reactor Summary for Apache Hadoop Main 3.3.0-SNAPSHOT:
 [INFO] 
 [INFO] Apache Hadoop Main ................................. SUCCESS [  0.115 s]
-[INFO] Apache Hadoop Build Tools .......................... SUCCESS [  0.770 s]
-[INFO] Apache Hadoop Project POM .......................... SUCCESS [  0.259 s]
-[INFO] Apache Hadoop Annotations .......................... SUCCESS [  0.187 s]
-[INFO] Apache Hadoop Project Dist POM ..................... SUCCESS [  0.047 s]
-[INFO] Apache Hadoop Assemblies ........................... SUCCESS [  0.064 s]
-[INFO] Apache Hadoop Maven Plugins ........................ SUCCESS [  1.905 s]
-[INFO] Apache Hadoop MiniKDC .............................. SUCCESS [  0.312 s]
-[INFO] Apache Hadoop Auth ................................. SUCCESS [  2.131 s]
-[INFO] Apache Hadoop Auth Examples ........................ SUCCESS [  0.287 s]
-[INFO] Apache Hadoop Common ............................... SUCCESS [ 11.718 s]
-[INFO] Apache Hadoop NFS .................................. SUCCESS [  0.995 s]
-[INFO] Apache Hadoop KMS .................................. SUCCESS [  1.028 s]
-[INFO] Apache Hadoop Registry ............................. SUCCESS [  0.943 s]
-[INFO] Apache Hadoop Common Project ....................... SUCCESS [  0.024 s]
-[INFO] Apache Hadoop HDFS Client .......................... SUCCESS [ 11.315 s]
-[INFO] Apache Hadoop HDFS ................................. SUCCESS [ 17.599 s]
-[INFO] Apache Hadoop HDFS Native Client ................... SUCCESS [  0.210 s]
-[INFO] Apache Hadoop HttpFS ............................... SUCCESS [  1.261 s]
-[INFO] Apache Hadoop HDFS-NFS ............................. SUCCESS [  0.627 s]
-[INFO] Apache Hadoop HDFS-RBF ............................. SUCCESS [  2.555 s]
-[INFO] Apache Hadoop HDFS Project ......................... SUCCESS [  0.020 s]
-[INFO] Apache Hadoop YARN ................................. SUCCESS [  0.017 s]
-[INFO] Apache Hadoop YARN API ............................. SUCCESS [  6.071 s]
-[INFO] Apache Hadoop YARN Common .......................... SUCCESS [  2.788 s]
-[INFO] Apache Hadoop YARN Server .......................... SUCCESS [  0.020 s]
-[INFO] Apache Hadoop YARN Server Common ................... SUCCESS [  2.950 s]
-[INFO] Apache Hadoop YARN NodeManager ..................... SUCCESS [  3.508 s]
-[INFO] Apache Hadoop YARN Web Proxy ....................... SUCCESS [  0.692 s]
-[INFO] Apache Hadoop YARN ApplicationHistoryService ....... SUCCESS [  1.128 s]
-[INFO] Apache Hadoop YARN Timeline Service ................ SUCCESS [  0.773 s]
-[INFO] Apache Hadoop YARN ResourceManager ................. SUCCESS [  6.609 s]
-[INFO] Apache Hadoop YARN Server Tests .................... SUCCESS [  1.147 s]
-[INFO] Apache Hadoop YARN Client .......................... SUCCESS [  1.676 s]
-[INFO] Apache Hadoop YARN SharedCacheManager .............. SUCCESS [  0.753 s]
-[INFO] Apache Hadoop YARN Timeline Plugin Storage ......... SUCCESS [  1.079 s]
-[INFO] Apache Hadoop YARN TimelineService HBase Backend ... SUCCESS [  0.018 s]
-[INFO] Apache Hadoop YARN TimelineService HBase Common .... SUCCESS [  0.855 s]
-[INFO] Apache Hadoop YARN TimelineService HBase Client .... SUCCESS [  1.027 s]
-[INFO] Apache Hadoop YARN TimelineService HBase Servers ... SUCCESS [  0.016 s]
-[INFO] Apache Hadoop YARN TimelineService HBase Server 1.2  SUCCESS [  0.689 s]
-[INFO] Apache Hadoop YARN TimelineService HBase tests ..... SUCCESS [  1.742 s]
-[INFO] Apache Hadoop YARN Router .......................... SUCCESS [  0.944 s]
-[INFO] Apache Hadoop YARN TimelineService DocumentStore ... SUCCESS [  0.384 s]
-[INFO] Apache Hadoop YARN Applications .................... SUCCESS [  0.015 s]
-[INFO] Apache Hadoop YARN DistributedShell ................ SUCCESS [  0.730 s]
-[INFO] Apache Hadoop YARN Unmanaged Am Launcher ........... SUCCESS [  0.454 s]
-[INFO] Apache Hadoop MapReduce Client ..................... SUCCESS [  0.070 s]
-[INFO] Apache Hadoop MapReduce Core ....................... SUCCESS [  1.600 s]
-[INFO] Apache Hadoop MapReduce Common ..................... SUCCESS [  1.913 s]
-[INFO] Apache Hadoop MapReduce Shuffle .................... SUCCESS [  1.442 s]
-[INFO] Apache Hadoop MapReduce App ........................ SUCCESS [  2.040 s]
-[INFO] Apache Hadoop MapReduce HistoryServer .............. SUCCESS [  1.206 s]
-[INFO] Apache Hadoop MapReduce JobClient .................. SUCCESS [  1.755 s]
-[INFO] Apache Hadoop Mini-Cluster ......................... SUCCESS [  0.964 s]
-[INFO] Apache Hadoop YARN Services ........................ SUCCESS [  0.019 s]
-[INFO] Apache Hadoop YARN Services Core ................... SUCCESS [  1.927 s]
-[INFO] Apache Hadoop YARN Services API .................... SUCCESS [  0.949 s]
-[INFO] Apache Hadoop YARN Application Catalog ............. SUCCESS [  0.017 s]
-[INFO] Apache Hadoop YARN Application Catalog Webapp ...... FAILURE [  2.067 s]
+[INFO] Apache Hadoop Build Tools .......................... SUCCESS [  0.764 s]
+[INFO] Apache Hadoop Project POM .......................... SUCCESS [  0.293 s]
+[INFO] Apache Hadoop Annotations .......................... SUCCESS [  0.188 s]
+[INFO] Apache Hadoop Project Dist POM ..................... SUCCESS [  0.046 s]
+[INFO] Apache Hadoop Assemblies ........................... SUCCESS [  0.065 s]
+[INFO] Apache Hadoop Maven Plugins ........................ SUCCESS [  1.875 s]
+[INFO] Apache Hadoop MiniKDC .............................. SUCCESS [  0.322 s]
+[INFO] Apache Hadoop Auth ................................. SUCCESS [  2.211 s]
+[INFO] Apache Hadoop Auth Examples ........................ SUCCESS [  0.286 s]
+[INFO] Apache Hadoop Common ............................... SUCCESS [ 11.547 s]
+[INFO] Apache Hadoop NFS .................................. SUCCESS [  1.047 s]
+[INFO] Apache Hadoop KMS .................................. SUCCESS [  1.062 s]
+[INFO] Apache Hadoop Registry ............................. SUCCESS [  1.005 s]
+[INFO] Apache Hadoop Common Project ....................... SUCCESS [  0.022 s]
+[INFO] Apache Hadoop HDFS Client .......................... SUCCESS [  9.246 s]
+[INFO] Apache Hadoop HDFS ................................. SUCCESS [ 15.504 s]
+[INFO] Apache Hadoop HDFS Native Client ................... SUCCESS [  0.189 s]
+[INFO] Apache Hadoop HttpFS ............................... SUCCESS [  1.084 s]
+[INFO] Apache Hadoop HDFS-NFS ............................. SUCCESS [  0.506 s]
+[INFO] Apache Hadoop HDFS-RBF ............................. SUCCESS [  2.230 s]
+[INFO] Apache Hadoop HDFS Project ......................... SUCCESS [  0.018 s]
+[INFO] Apache Hadoop YARN ................................. SUCCESS [  0.016 s]
+[INFO] Apache Hadoop YARN API ............................. SUCCESS [  5.871 s]
+[INFO] Apache Hadoop YARN Common .......................... SUCCESS [  2.714 s]
+[INFO] Apache Hadoop YARN Server .......................... SUCCESS [  0.019 s]
+[INFO] Apache Hadoop YARN Server Common ................... SUCCESS [  2.893 s]
+[INFO] Apache Hadoop YARN NodeManager ..................... SUCCESS [  3.366 s]
+[INFO] Apache Hadoop YARN Web Proxy ....................... SUCCESS [  0.675 s]
+[INFO] Apache Hadoop YARN ApplicationHistoryService ....... SUCCESS [  1.154 s]
+[INFO] Apache Hadoop YARN Timeline Service ................ SUCCESS [  0.799 s]
+[INFO] Apache Hadoop YARN ResourceManager ................. SUCCESS [  6.375 s]
+[INFO] Apache Hadoop YARN Server Tests .................... SUCCESS [  1.036 s]
+[INFO] Apache Hadoop YARN Client .......................... SUCCESS [  1.568 s]
+[INFO] Apache Hadoop YARN SharedCacheManager .............. SUCCESS [  0.654 s]
+[INFO] Apache Hadoop YARN Timeline Plugin Storage ......... SUCCESS [  0.896 s]
+[INFO] Apache Hadoop YARN TimelineService HBase Backend ... SUCCESS [  0.017 s]
+[INFO] Apache Hadoop YARN TimelineService HBase Common .... SUCCESS [  0.748 s]
+[INFO] Apache Hadoop YARN TimelineService HBase Client .... SUCCESS [  1.094 s]
+[INFO] Apache Hadoop YARN TimelineService HBase Servers ... SUCCESS [  0.017 s]
+[INFO] Apache Hadoop YARN TimelineService HBase Server 1.2  SUCCESS [  0.711 s]
+[INFO] Apache Hadoop YARN TimelineService HBase tests ..... SUCCESS [  1.614 s]
+[INFO] Apache Hadoop YARN Router .......................... SUCCESS [  1.004 s]
+[INFO] Apache Hadoop YARN TimelineService DocumentStore ... SUCCESS [  0.382 s]
+[INFO] Apache Hadoop YARN Applications .................... SUCCESS [  0.016 s]
+[INFO] Apache Hadoop YARN DistributedShell ................ SUCCESS [  0.770 s]
+[INFO] Apache Hadoop YARN Unmanaged Am Launcher ........... SUCCESS [  0.448 s]
+[INFO] Apache Hadoop MapReduce Client ..................... SUCCESS [  0.068 s]
+[INFO] Apache Hadoop MapReduce Core ....................... SUCCESS [  1.790 s]
+[INFO] Apache Hadoop MapReduce Common ..................... SUCCESS [  1.637 s]
+[INFO] Apache Hadoop MapReduce Shuffle .................... SUCCESS [  1.199 s]
+[INFO] Apache Hadoop MapReduce App ........................ SUCCESS [  1.873 s]
+[INFO] Apache Hadoop MapReduce HistoryServer .............. SUCCESS [  1.032 s]
+[INFO] Apache Hadoop MapReduce JobClient .................. SUCCESS [  1.551 s]
+[INFO] Apache Hadoop Mini-Cluster ......................... SUCCESS [  0.803 s]
+[INFO] Apache Hadoop YARN Services ........................ SUCCESS [  0.015 s]
+[INFO] Apache Hadoop YARN Services Core ................... SUCCESS [  1.750 s]
+[INFO] Apache Hadoop YARN Services API .................... SUCCESS [  0.839 s]
+[INFO] Apache Hadoop YARN Application Catalog ............. SUCCESS [  0.016 s]
+[INFO] Apache Hadoop YARN Application Catalog Webapp ...... FAILURE [  1.046 s]
 [INFO] Apache Hadoop YARN Application Catalog Docker Image  FAILURE [  0.018 s]
 [INFO] Apache Hadoop YARN Application MaWo ................ SUCCESS [  0.029 s]
-[INFO] Apache Hadoop YARN Application MaWo Core ........... SUCCESS [  0.447 s]
-[INFO] Apache Hadoop YARN Site ............................ SUCCESS [  0.019 s]
-[INFO] Apache Hadoop YARN Registry ........................ SUCCESS [  0.313 s]
-[INFO] Apache Hadoop YARN UI .............................. SUCCESS [  0.016 s]
-[INFO] Apache Hadoop YARN CSI ............................. SUCCESS [  2.280 s]
-[INFO] Apache Hadoop YARN Project ......................... SUCCESS [  0.670 s]
-[INFO] Apache Hadoop MapReduce HistoryServer Plugins ...... SUCCESS [  0.411 s]
-[INFO] Apache Hadoop MapReduce NativeTask ................. SUCCESS [  0.648 s]
-[INFO] Apache Hadoop MapReduce Uploader ................... SUCCESS [  0.564 s]
-[INFO] Apache Hadoop MapReduce Examples ................... SUCCESS [  0.678 s]
-[INFO] Apache Hadoop MapReduce ............................ SUCCESS [  0.106 s]
-[INFO] Apache Hadoop MapReduce Streaming .................. SUCCESS [  0.729 s]
-[INFO] Apache Hadoop Distributed Copy ..................... SUCCESS [  0.686 s]
-[INFO] Apache Hadoop Client Aggregator .................... SUCCESS [  1.056 s]
-[INFO] Apache Hadoop Dynamometer Workload Simulator ....... SUCCESS [  0.766 s]
-[INFO] Apache Hadoop Dynamometer Cluster Simulator ........ SUCCESS [  0.897 s]
-[INFO] Apache Hadoop Dynamometer Block Listing Generator .. SUCCESS [  0.436 s]
-[INFO] Apache Hadoop Dynamometer Dist ..................... SUCCESS [  0.763 s]
-[INFO] Apache Hadoop Dynamometer .......................... SUCCESS [  0.014 s]
-[INFO] Apache Hadoop Archives ............................. SUCCESS [  0.377 s]
-[INFO] Apache Hadoop Archive Logs ......................... SUCCESS [  0.443 s]
-[INFO] Apache Hadoop Rumen ................................ SUCCESS [  0.480 s]
-[INFO] Apache Hadoop Gridmix .............................. SUCCESS [  0.281 s]
-[INFO] Apache Hadoop Data Join ............................ SUCCESS [  0.103 s]
-[INFO] Apache Hadoop Extras ............................... SUCCESS [  0.210 s]
-[INFO] Apache Hadoop Pipes ................................ SUCCESS [  0.013 s]
-[INFO] Apache Hadoop OpenStack support .................... SUCCESS [  0.424 s]
-[INFO] Apache Hadoop Amazon Web Services support .......... SUCCESS [  2.644 s]
-[INFO] Apache Hadoop Kafka Library support ................ SUCCESS [  0.491 s]
-[INFO] Apache Hadoop Azure support ........................ SUCCESS [  1.233 s]
-[INFO] Apache Hadoop Aliyun OSS support ................... SUCCESS [  0.257 s]
-[INFO] Apache Hadoop Scheduler Load Simulator ............. SUCCESS [  1.399 s]
-[INFO] Apache Hadoop Resource Estimator Service ........... SUCCESS [  0.585 s]
-[INFO] Apache Hadoop Azure Data Lake support .............. SUCCESS [  0.311 s]
-[INFO] Apache Hadoop Image Generation Tool ................ SUCCESS [  0.455 s]
-[INFO] Apache Hadoop Tools Dist ........................... SUCCESS [  0.787 s]
-[INFO] Apache Hadoop Tools ................................ SUCCESS [  0.016 s]
-[INFO] Apache Hadoop Client API ........................... SUCCESS [  1.067 s]
-[INFO] Apache Hadoop Client Runtime ....................... SUCCESS [  0.406 s]
-[INFO] Apache Hadoop Client Packaging Invariants .......... SUCCESS [  0.109 s]
-[INFO] Apache Hadoop Client Test Minicluster .............. SUCCESS [  1.987 s]
+[INFO] Apache Hadoop YARN Application MaWo Core ........... SUCCESS [  0.372 s]
+[INFO] Apache Hadoop YARN Site ............................ SUCCESS [  0.018 s]
+[INFO] Apache Hadoop YARN Registry ........................ SUCCESS [  0.319 s]
+[INFO] Apache Hadoop YARN UI .............................. SUCCESS [  0.017 s]
+[INFO] Apache Hadoop YARN CSI ............................. SUCCESS [  2.079 s]
+[INFO] Apache Hadoop YARN Project ......................... SUCCESS [  0.592 s]
+[INFO] Apache Hadoop MapReduce HistoryServer Plugins ...... SUCCESS [  0.375 s]
+[INFO] Apache Hadoop MapReduce NativeTask ................. SUCCESS [  0.698 s]
+[INFO] Apache Hadoop MapReduce Uploader ................... SUCCESS [  0.579 s]
+[INFO] Apache Hadoop MapReduce Examples ................... SUCCESS [  0.650 s]
+[INFO] Apache Hadoop MapReduce ............................ SUCCESS [  0.090 s]
+[INFO] Apache Hadoop MapReduce Streaming .................. SUCCESS [  0.661 s]
+[INFO] Apache Hadoop Distributed Copy ..................... SUCCESS [  0.634 s]
+[INFO] Apache Hadoop Client Aggregator .................... SUCCESS [  1.019 s]
+[INFO] Apache Hadoop Dynamometer Workload Simulator ....... SUCCESS [  0.835 s]
+[INFO] Apache Hadoop Dynamometer Cluster Simulator ........ SUCCESS [  0.976 s]
+[INFO] Apache Hadoop Dynamometer Block Listing Generator .. SUCCESS [  0.442 s]
+[INFO] Apache Hadoop Dynamometer Dist ..................... SUCCESS [  0.725 s]
+[INFO] Apache Hadoop Dynamometer .......................... SUCCESS [  0.015 s]
+[INFO] Apache Hadoop Archives ............................. SUCCESS [  0.408 s]
+[INFO] Apache Hadoop Archive Logs ......................... SUCCESS [  0.529 s]
+[INFO] Apache Hadoop Rumen ................................ SUCCESS [  0.506 s]
+[INFO] Apache Hadoop Gridmix .............................. SUCCESS [  0.301 s]
+[INFO] Apache Hadoop Data Join ............................ SUCCESS [  0.112 s]
+[INFO] Apache Hadoop Extras ............................... SUCCESS [  0.233 s]
+[INFO] Apache Hadoop Pipes ................................ SUCCESS [  0.014 s]
+[INFO] Apache Hadoop OpenStack support .................... SUCCESS [  0.442 s]
+[INFO] Apache Hadoop Amazon Web Services support .......... SUCCESS [  2.681 s]
+[INFO] Apache Hadoop Kafka Library support ................ SUCCESS [  0.448 s]
+[INFO] Apache Hadoop Azure support ........................ SUCCESS [  1.073 s]
+[INFO] Apache Hadoop Aliyun OSS support ................... SUCCESS [  0.253 s]
+[INFO] Apache Hadoop Scheduler Load Simulator ............. SUCCESS [  1.208 s]
+[INFO] Apache Hadoop Resource Estimator Service ........... SUCCESS [  0.513 s]
+[INFO] Apache Hadoop Azure Data Lake support .............. SUCCESS [  0.283 s]
+[INFO] Apache Hadoop Image Generation Tool ................ SUCCESS [  0.441 s]
+[INFO] Apache Hadoop Tools Dist ........................... SUCCESS [  0.660 s]
+[INFO] Apache Hadoop Tools ................................ SUCCESS [  0.014 s]
+[INFO] Apache Hadoop Client API ........................... SUCCESS [  0.928 s]
+[INFO] Apache Hadoop Client Runtime ....................... SUCCESS [  0.397 s]
+[INFO] Apache Hadoop Client Packaging Invariants .......... SUCCESS [  0.110 s]
+[INFO] Apache Hadoop Client Test Minicluster .............. SUCCESS [  2.010 s]
 [INFO] Apache Hadoop Client Packaging Invariants for Test . SUCCESS [  0.069 s]
-[INFO] Apache Hadoop Client Packaging Integration Tests ... SUCCESS [  0.051 s]
-[INFO] Apache Hadoop Distribution ......................... SUCCESS [  0.085 s]
+[INFO] Apache Hadoop Client Packaging Integration Tests ... SUCCESS [  0.053 s]
+[INFO] Apache Hadoop Distribution ......................... SUCCESS [  0.087 s]
 [INFO] Apache Hadoop Client Modules ....................... SUCCESS [  0.014 s]
-[INFO] Apache Hadoop Cloud Storage ........................ SUCCESS [  0.384 s]
-[INFO] Apache Hadoop Tencent COS Support .................. SUCCESS [  0.213 s]
+[INFO] Apache Hadoop Cloud Storage ........................ SUCCESS [  0.410 s]
+[INFO] Apache Hadoop Tencent COS Support .................. SUCCESS [  0.228 s]
 [INFO] Apache Hadoop Cloud Storage Project ................ SUCCESS [  0.014 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  02:14 min
-[INFO] Finished at: 2024-05-16T21:51:20Z
+[INFO] Total time:  02:05 min
+[INFO] Finished at: 2024-05-16T23:00:06Z
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal com.github.eirslett:frontend-maven-plugin:1.6:yarn (yarn install) on project hadoop-yarn-applications-catalog-webapp: Failed to run task: 'yarn ' failed. org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1) -> [Help 1]
 [ERROR] Failed to execute goal on project hadoop-yarn-applications-catalog-docker: Could not resolve dependencies for project org.apache.hadoop:hadoop-yarn-applications-catalog-docker:pom:3.3.0-SNAPSHOT: Failure to find org.apache.hadoop:hadoop-yarn-applications-catalog-webapp:war:3.3.0-SNAPSHOT in https://repository.apache.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots.https has elapsed or updates are forced -> [Help 2]
